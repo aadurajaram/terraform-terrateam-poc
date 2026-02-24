@@ -12,4 +12,4 @@ resource "aws_s3_bucket" "mc_poc_bucket" {
 output "bucket_name" {
   value = aws_s3_bucket.mc_poc_bucket.bucket
 }
-# test trigger
+# test trigger# trigger again
